@@ -1,0 +1,68 @@
+S pkg upgrade && pkg update $ pkg install git
+
+$ cd storage 
+
+$ cd shared
+
+$ cd namafolder
+
+$ git config --global user.email "
+
+$ git config --global user.name "Y4LL"
+
+$ git init
+
+$ git add .
+
+$ git config --global --add safe.directory/storage/emulated/0/PERTAMBANGAN-MOD-BOT
+
+$ git add .
+
+$ git commit -m "Initial commit"
+
+
+$ git remote add origin link repo.  
+
+$ git branch -m "patch1"
+
+$ git push origin patch1
+
+Username: Y4LL
+
+Password: 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
+
+
+
+
+
+
+
+echo "# PERTAMBANGAN-MOD-BOT" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -m main
+git remote add origin https://github.com/GEOLOGI-TEAM/GEOLOGY-PERTAMBANGAN-MODS-BOT.git
+git push -u origin main
+
+
+
+/*
+
+git remote add origin https://github.com/GEOLOGI-TEAM/GEOLOGY-PERTAMBANGAN-MODS-BOT.git
+git branch -M main
+git push -u origin main 
+
+*/
+
+7
+
+// cadangan 
+
+
+
+
+
+
+
+

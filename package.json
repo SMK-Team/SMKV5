@@ -1,0 +1,77 @@
+{
+  "name": "SMK-Team",
+  "version": "1.2.3",
+  "description": "WhatsApp Using Lib Baileys Multi Device",
+  "main": "Y4LL.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node Y4LL.js"
+  },
+  "keywords": [
+    "termux",
+    "whatsapp",
+    "2021",
+    "wabase-md",
+    "base",
+    "baileys-md",
+    "bot",
+    "bot-md",
+    "multi-device"
+  ],
+  "author": "SMK-Team.",
+  "license": "MIT",
+  "dependencies": {
+    "@adiwajshing/baileys": "",
+    "@adiwajshing/keyed-db": "",
+    "awesome-phonenumber": "",
+    "axios": "",
+    "caliph-api": "",
+    "chalk": "",
+    "cheerio": "",
+    "child_process": "",
+    "crypto": "",
+    "dhn-api": "",
+    "file-type": "",
+    "fluent-ffmpeg": "",
+    "fs": "",
+    "g-i-s": "",
+    "google-it": "",
+    "got": "",
+    "human-readable": "",
+    "hxz-api": "",
+    "jimp": "",
+    "jsdom": "",
+    "kitsune-api": "",
+    "lowdb": "",
+    "mathjs": "",
+    "moment-timezone": "",
+    "mongoose": "",
+    "node-cron": "",
+    "node-fetch": "",
+    "node-webpmux": "",
+    "os": "",
+    "path": "",
+    "perf_hooks": "",
+    "pino": "",
+    "qrcode-terminal": "",
+    "request": "",
+    "scrape-primbon": "",
+    "util": "",
+    "xfarr-api": "",
+    "yargs": "",
+    "yt-search": ""
+  },
+  "directories": {
+    "lib": "lib",
+    "src": "src"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SMK-Team/SMKV3.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SMK-Team/SMKV3/issues"
+  },
+  "homepage": "https://github.com/SMKV3/Haikal-Morou#readme"
+}
