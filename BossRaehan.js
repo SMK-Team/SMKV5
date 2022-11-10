@@ -1,5 +1,5 @@
-//*
-› Create By BossRaehan
+/*
+> create By BossRaehan
 › Base Ori Y4LL
 WA : 081528628870
 */
