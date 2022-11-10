@@ -78,11 +78,11 @@ global.limitawal = {
    potionawal: 1
 }
 //=================================================//
-global.thumb = 'https://telegra.ph/file/1fe23701e5a68b5e73bac.jpg' 
-global.visoka = 'https://telegra.ph/file/1fe23701e5a68b5e73bac.jpg' 
-global.log0 = 'https://telegra.ph/file/1fe23701e5a68b5e73bac.jpg' 
+global.thumb = { url: 'https://telegra.ph/file/1fe23701e5a68b5e73bac.jpg' }
+global.visoka = { url: 'https://telegra.ph/file/1fe23701e5a68b5e73bac.jpg' }
+global.log0 = { url: 'https://telegra.ph/file/1fe23701e5a68b5e73bac.jpg' }
 global.menuimg = 'https://g.top4top.io/p_2503hzq4n1.jpg'
-global.BossRaehan = 'https://telegra.ph/file/1fe23701e5a68b5e73bac.jpg' 
+global.BossRaehan = { url: 'https://telegra.ph/file/1fe23701e5a68b5e73bac.jpg' }
 //=================================================//
 let file = require.resolve(__filename)
 fs.watchFile(file, () => {
