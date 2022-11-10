@@ -18,7 +18,7 @@
 </p>
 <br>
 <div align="center">
-<img src="https://telegra.ph/file/7b8b904ecabdbe0744635.jpg">
+<img src="https://telegra.ph/file/e6a4267a437b6129a5f1c.jpg">
 </div>
 </p>
 
@@ -44,7 +44,7 @@
 <p align="center">
   <a href="https://open.spotify.com/track/4bNvS25ZVMCvLHEUV87mp4?si=yb1PaPVnRgiTYedy8r6i_g&utm_source=copy-link&context=spotify%3Aplaylist%3A37i9dQZF1EIVoBTSiHHsdx&dl_branch=1" target="_blank"><img src="https://now-playing-on-spotify.vercel.app/api/spotify" alt="Spotify Now Playing" width="350"/></a>
 </p>
-<p align="center"><a href="https://github.com/Y4LL"><img src="https://github-readme-stats.vercel.app/api?username=Y4LL&show_icons=true&theme=radical"></a></p>
+<p align="center"><a href="https://github.com/SMK-Team"><img src="https://github-readme-stats.vercel.app/api?username=SMK-Team&show_icons=true&theme=radical"></a></p>
 </div>
 
 
