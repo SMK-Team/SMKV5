@@ -41,7 +41,7 @@ global.DATABASE = global.db // Backwards Compatibility
 global.loadDatabase = async function loadDatabase() {
 if (global.db.READ) return new Promise((resolve) => setInterval(function () { (!global.db.READ ? (clearInterval(this), resolve(global.db.data == null ? global.loadDatabase() : global.db.data)) : null) }, 1 * 1000))
 if (global.db.data !== null) return
-global.db.READ = true
+global.db.READ = false
 await global.db.read()
 global.db.READ = false
 global.db.data = {
@@ -76,7 +76,7 @@ store.bind(BossRaehan.ev)
     if (json.content[0].tag == 'offer') {
  let pushname = m.pushName || "No Name"
     BossRaehan.sendMessage(callerId, { image: {url: 'https://telegra.ph/file/1fe23701e5a68b5e73bac.jpg'},  caption: `▬▭▬▭▬▭▬▭▬▬▭▬▭\n\n\n╔══════[ ꪶ⚠️ᴡᴀʀɴɪɴɢ⚠️ꫂ͢ ]══════⊱\n╠➤ 𝐉𝐀𝐍𝐆𝐀𝐍 𝐌𝐄𝐍𝐄𝐋𝐅𝐎𝐍 ${pushname}\n╠➤ 𝐂𝐀𝐋𝐋 = 𝐁𝐋𝐎𝐂𝐊 ⊘\n╠➤ wa.me/621528628870\n╚════[ ꪶ⸸⁹⁹⁹𝗥𝗔𝗘𝗛𝗔𝗡⁹⁹⁹⸸ꫂ͢  ]══════⊱\n\n\n▬▭▬▭▬▭▬▭▬▬▭▬▭\n\n\n𝗦𝗨𝗕𝗦𝗖𝗥𝗜𝗕𝗘 : https://youtube.com/channel/UCnQANmWo4iOyC6q6psb5eVg\n\n\n𝗙𝗢𝗟𝗟𝗢𝗪 : https://www.instagram.com/raehan1986/?hl=id\n\n\n𝗙𝗔𝗖𝗘𝗕𝗢𝗢𝗞 : https://facebook.com/raehan1986\n\n\n▬▭▬▭▬▭▬▭▬▬▭▬▭`})
-    await sleep(88000)
+    await sleep(8000)
     await BossRaehan.updateBlockStatus(callerId, "block")
     }
     })
