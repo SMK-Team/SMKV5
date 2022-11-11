@@ -35,7 +35,6 @@ global.db = new Low(
 /https?:\/\//.test(opts['db'] || '') ?
 new cloudDBAdapter(opts['db']) : /mongodb/.test(opts['db']) ?
 new mongoDB(opts['db']) :
-new JSONFile(`DataBoss/dbnye/database.json`)
 )
 global.DATABASE = global.db // Backwards Compatibility
 global.loadDatabase = async function loadDatabase() {
