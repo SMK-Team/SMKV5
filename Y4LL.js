@@ -65,7 +65,7 @@ async function startBossRaehan() {
 const BossRaehan = makeWASocket({
 logger: pino({ level: 'silent' }),
 printQRInTerminal: true,
-browser: ['KONTOLE','Safari','1.0.0'],
+browser: ['RAEHAN','Chrome','3.0.0'],
 auth: state})
 //=================================================//
 store.bind(BossRaehan.ev)
