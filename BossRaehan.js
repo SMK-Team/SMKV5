@@ -299,7 +299,7 @@ timezone: "Asia/Jakarta"
 async function replyReg(teks) {
 const anakau = {
 image:Mthumb,
-gifPlayback:false,
+gifPlayback:true,
 jpegThumbnail:Mthumb,
 caption:`
 ▬▭▬▭▬▭▬▭▬▬▭▬▭
@@ -328,7 +328,7 @@ fs.writeFileSync('./DataBoss/dbnye/registered.json', JSON.stringify(_registered)
 addRegisteredUser(sender, serialUser)
 const anu = {
 image:Mthumb,
-gifPlayback:false,
+gifPlayback:true,
 jpegThumbnail:Mthumb,
 caption: `
 ▬▭▬▭▬▭▬▭▬▬▭▬▭
