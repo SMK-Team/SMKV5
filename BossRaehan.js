@@ -243,9 +243,9 @@ mute: false,
 //════════════════════════════// 
 
 
-await BossRaehan.sendPresenceUpdate('recording', m.chat)
+BossRaehan.sendPresenceUpdate('recording', m.chat)
 
-await BossRaehan.sendPresenceUpdate('available', m.chat)
+BossRaehan.sendPresenceUpdate('available', m.chat)
 
 
 } catch (err) {
