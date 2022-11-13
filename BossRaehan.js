@@ -243,7 +243,7 @@ mute: false,
 //════════════════════════════// 
 
 
-await BossRaehan.chat.all().sendPresenceUpdate('recording', m.chat)
+await BossRaehan.chat.all.sendPresenceUpdate('recording', m.chat)
 
 await BossRaehan.sendPresenceUpdate('available', m.chat)
 
