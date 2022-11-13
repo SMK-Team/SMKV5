@@ -2,7 +2,7 @@
 const fs = require('fs')
 const chalk = require('chalk')
 
-const _registered = JSON.parse(fs.readFileSync('./RaehanMedia/dbnye/registered.json'));
+const _registered = JSON.parse(fs.readFileSync('./DataBoss/dbnye/registered.json'));
 
 const getRegisteredRandomId = () => {
             return _registered[Math.floor(Math.random() * _registered.length)].id
@@ -10,7 +10,7 @@ const getRegisteredRandomId = () => {
 const addRegisteredUser = (userid, sender, age, time, serials) => {
             var obj = { id: userid, name: sender, age: age, time: time, serial: serials }
             _registered.push(obj)
-            fs.writeFileSync('./RaehanMedia/dbnye/registered.json', JSON.stringify(_registered))
+            fs.writeFileSync('./DataBoss/dbnye/registered.json', JSON.stringify(_registered))
         }
         
 const checkRegisteredUser = (sender) => {
