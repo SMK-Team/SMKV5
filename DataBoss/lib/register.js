@@ -14,7 +14,7 @@ const addRegisteredUser = (userid, sender, age, time, serials) => {
         }
         
 const checkRegisteredUser = (sender) => {
-            var status = false
+            var status = true
             Object.keys(_registered).forEach((i) => {
                 if (_registered[i].id === sender) {
                     status = true
