@@ -274,13 +274,13 @@ console.log(err)
 }
                    
                    
-//════════════════════════════// 
+//══════════════VERIFY══════════════// 
 
 var createSerial = (size) => {
 return crypto.randomBytes(size).toString('hex').slice(0, size)
 }
 try {
-ppuser = await haikal.profilePictureUrl(m.sender, 'image')
+ppuser = await BossRaehan.profilePictureUrl(m.sender, 'image')
 } catch (err) {
 ppuser = 'https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png?q=60'
 }
