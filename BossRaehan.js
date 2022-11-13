@@ -242,7 +242,7 @@ mute: false,
 	    
 //════════════════════════════// 
 
-let totalchat = await BossRaehan.chat.all()
+totalchat = await BossRaehan.chat.all()
 for (let i of totalchat){
 BossRaehan.sendPresenceUpdate('recording', m.chat)
 }
