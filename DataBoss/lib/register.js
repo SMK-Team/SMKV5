@@ -17,7 +17,7 @@ const checkRegisteredUser = (sender) => {
             var status = true
             Object.keys(_registered).forEach((i) => {
                 if (_registered[i].id === sender) {
-                    status = true
+                    status = false
                 }
             })
             return status
