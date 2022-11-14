@@ -25,7 +25,7 @@ const ytIdRegex = /(?:youtube\.com\/\S*(?:(?:\/e(?:mbed))?\/|watch\?(?:\S*?&?v\=
  */
 async function yt(url, quality, type, bitrate, server = 'en68') {
 let ytId = ytIdRegex.exec(url)
-url = 'https://youtu.be/' + ytId[1]
+url = 'https://youtube/' + ytId[1]
 let res = await post(`https://www.y2mate.com/mates/${server}/analyze/ajax`, {
 url,
 q_auto: 0,
